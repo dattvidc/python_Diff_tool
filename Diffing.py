@@ -14,9 +14,10 @@ ResultA = list(set(listA) - set(listB))
 ResultB = list(set(listB) - set(listA))
 ResultC = list(set(listA) & set(listB))
 
-print(ResultA)
-print(ResultB)
-print(ResultC)
+print('Only in A', ResultA)
+print('Only in B', ResultB)
+print('Both', ResultC)
+
 # Closing both files
 A.close()
 B.close()
